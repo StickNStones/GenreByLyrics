@@ -65,7 +65,7 @@ def mlp2(train_x, train_y, test1_x, test1_y):
 
 
 
-with open('newExcel.csv', 'r') as f:
+with open('TrainingLyrics.csv', 'r') as f:
     reader = pd.read_csv(f)
     genreList = reader["Genre"]
     lyricsList = reader["Lyrics"]
